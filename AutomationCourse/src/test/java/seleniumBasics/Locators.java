@@ -7,7 +7,7 @@ public class Locators extends Base{
 	public void verifyLocators() {
 		
 		driver.navigate().to("https://selenium.qabible.in/simple-form-demo.php");
-		//using id locator
+		//using id
 		driver.findElement(By.id("single-input-field"));
 		
 		//using className
