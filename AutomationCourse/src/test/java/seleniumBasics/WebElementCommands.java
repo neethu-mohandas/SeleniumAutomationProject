@@ -12,11 +12,20 @@ public class WebElementCommands extends Base{
 		messagebox.sendKeys("Neethu"); //sendKeys accepts only String input
 		
 		WebElement showbutton=driver.findElement(By.id("button-one"));
+		
+		System.out.println(showbutton.isDisplayed()); // output will be true(boolean)
+		System.out.println(showbutton.isEnabled()); // output will be true(boolean)
+		
         showbutton.click(); //to click
 		
 		WebElement msgdisplay=driver.findElement(By.id("message-one"));
 		System.out.println(msgdisplay.getText()); // print text in console
-
+		
+		messagebox.clear(); //to clear
+		
+		System.out.println(showbutton.getTagName()); //print HTML tag
+		
+		System.out.println(messagebox.getCssValue("border-color")); //print css property value
 		
 	}
 	
