@@ -17,8 +17,8 @@ public class LoginPage {
 	
 	 // Locators
 	@FindBy(id="user-name") private WebElement username;
-	@FindBy(id="password") private WebElement password ;
-	@FindBy(id="login-button") private WebElement login ;
+	@FindBy(id="password") private WebElement password;
+	@FindBy(id="login-button") private WebElement login;
 	
 	// Actions
 	public void enterUsernameOnUsernameField(String usernameValue) {
