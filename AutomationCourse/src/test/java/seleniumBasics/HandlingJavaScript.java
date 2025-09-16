@@ -9,7 +9,7 @@ public class HandlingJavaScript extends Base {
 	public void verifyJavaScript() {
         driver.navigate().to("https://selenium.qabible.in/simple-form-demo.php");
 		
-		WebElement showMessageButton=driver.findElement(By.xpath("//button[@id='button-one']"));	
+		WebElement showMessageButton=driver.findElement(By.xpath("//button[@id='button-one']"));
   // Cast the WebDriver instance driver to JavascriptExecutor to execute JavaScript commands
   // Create a JavaScriptExecutor object by casting the WebDriver instance 
 		JavascriptExecutor js = (JavascriptExecutor)driver;  // casting (driver control given to JavaScript executor)	

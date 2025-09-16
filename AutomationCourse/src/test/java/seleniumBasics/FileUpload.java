@@ -1,7 +1,7 @@
 package seleniumBasics;
 
 import java.awt.AWTException; // Exception class for Robot class
-import java.awt.Robot;  // Robot class to simulate keyboard/mouse actions
+import java.awt.Robot;  // Robot class to simulate keyboard actions
 import java.awt.Toolkit; // Used to get system clipboard
 import java.awt.datatransfer.StringSelection; // Used to copy text (file path) to clipboard
 import java.awt.event.KeyEvent; // Used to simulate key presses
